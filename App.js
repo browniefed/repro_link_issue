@@ -44,8 +44,8 @@ function App() {
         config: {
           Home: "home",
           Details: {
-            path: "details/:id",
-            // path: "details/:id?",
+            // path: "details/:id", // This is broken
+            path: "details/:id?",
           },
         },
       }}
